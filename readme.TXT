@@ -27,7 +27,11 @@ d)Add SSH，key为.ssh文件夹下的id_rsa.pub内容(C:\Users\Administrator\.ssh\id_rsa.
 
 e)创建repository
 
-f)连接仓库，上传文件 git remote add origin https://github.com/joinyo/git-learn.git
+f)连接仓库，上传文件 
+
+git remote add origin https://github.com/joinyo/git-learn.git
+
+git push -u origin master
 
 3.配置
 #git config --global user.name  "姓名"
